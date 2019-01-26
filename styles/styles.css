@@ -1692,7 +1692,9 @@ body {
     font-size: 15px;
     text-transform: uppercase;
     transition: all ease .1s;
-    border-radius: 5px
+    border-radius: 5px;
+    letter-spacing: 0.6px;
+    line-height: normal;
 }
 
 .button:hover {
