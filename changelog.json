@@ -1,876 +1,876 @@
 [{
-  "version": "0.7.8",
-  "date": "2018-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135", "2236"]
-    },
-    {
-      "title": "Windows: Opening links doesn't bring the browser to the front",
-      "tags": ["Changed"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Deprecated"],
-      "issues": ["2089", "378"]
-    },
-    {
-      "title": "Cloning a repository's wiki",
-      "tags": ["Removed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Update banner message clarifies that only Desktop needs to be restarted displays number of changed files instead of dot",
-      "tags": ["Fixed"],
-      "issues": ["888"]
-    }	,
-    {
-      "title": "Desktop needs to be restarted displays number of changed files instead of dot",
-      "tags": ["Security"],
-      "issues": ["888"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-},
-{
-  "version": "0.7.1",
-  "date": "2017-07-18T19:00:59Z",
-  "changes": [{
-      "title": "Added the Branch22 > Create Pull Request menu item",
-      "tags": ["Added"],
-      "issues": ["2135"]
-    },
-    {
-      "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
-      "tags": ["Added"],
-      "issues": ["696"]
-    },
-    {
-      "title": "Added the `github` command line tool",
-      "tags": ["Changed"],
-      "issues": ["2089"]
-    },
-    {
-      "title": "Error when checking out a PR from a fork",
-      "tags": ["Fixed"],
-      "issues": ["1624"]
-    },
-    {
-      "title": "Switch to history view for default branch when deleting current branch during a compare",
-      "tags": ["Security", "Changed"],
-      "issues": ["888", "2592", "882", "1680"]
-    }
-  ]
-}
+    "version": "0.7.8",
+    "date": "2018-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135", "2236"]
+      },
+      {
+        "title": "Windows: Opening links doesn't bring the browser to the front",
+        "tags": ["Changed"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Deprecated"],
+        "issues": ["2089", "378"]
+      },
+      {
+        "title": "Cloning a repository's wiki",
+        "tags": ["Removed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Update banner message clarifies that only Desktop needs to be restarted displays number of changed files instead of dot",
+        "tags": ["Fixed"],
+        "issues": ["888"]
+      },
+      {
+        "title": "Desktop needs to be restarted displays number of changed files instead of dot",
+        "tags": ["Security"],
+        "issues": ["888"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "date": "2017-07-18T19:00:59Z",
+    "changes": [{
+        "title": "Added the Branch22 > Create Pull Request menu item",
+        "tags": ["Added"],
+        "issues": ["2135"]
+      },
+      {
+        "title": "Notification displayed in History tab when the base branch moves ahead of the current branch",
+        "tags": ["Added"],
+        "issues": ["696"]
+      },
+      {
+        "title": "Added the `github` command line tool",
+        "tags": ["Changed"],
+        "issues": ["2089"]
+      },
+      {
+        "title": "Error when checking out a PR from a fork",
+        "tags": ["Fixed"],
+        "issues": ["1624"]
+      },
+      {
+        "title": "Switch to history view for default branch when deleting current branch during a compare",
+        "tags": ["Security", "Changed"],
+        "issues": ["888", "2592", "882", "1680"]
+      }
+    ]
+  }
 ]

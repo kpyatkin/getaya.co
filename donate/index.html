@@ -1,1 +1,128 @@
-<!DOCTYPE html><html lang="ru"><head><title>Aya</title><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/styles/styles.css"><link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png"><link rel="manifest" href="/img/site.webmanifest"><link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5"><meta name="msapplication-TileColor" content="#ffffff"><meta name="theme-color" content="#ffffff"></head><body><div class="header-container header-container-inner-page"><div class="header-inner-container"><div data-include="../views/header.html"></div><!-- import from file --><div class="header-inner-container-row title-col"><div class="breadcrumbs"><ul><li><a href="/"><span>Main Page</span></a></li><li><span>Help grow this project</span></li></ul></div><p class="page-title">Help grow this project</p><p class="page-desc">Support for the continued development of Aya project comes directly from the community.</p></div></div></div><div class="donate-container"><div class="donate-inner-container"><p class="title">High-quality applications development takes much time and resources. If you find the app useful and would like to support our efforts, please consider donating or tell about Aya in social channels.</p><div class="row"><div class="col-1"><p class="title">Make a donation</p><p class="desc">You can donate money to the project with PayPal. There is no minimal amount for your donation, but keep in mind that PayPal charges us a fee for each donation. For example, if you donate $1.00, PayPal's fee is $0.35.</p><p class="desc">If you click the button below, you will be taken to the secure PayPal website. You don't need to have a PayPal account in order to make a donation.</p><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input type="hidden" name="cmd" value="_s-xclick"> <input type="hidden" name="return" value="http://getaya.co/donated"><div class="col"><input type="hidden" name="on0" value="Name"><p>Name <span>(optional, name will be published below, leave blank for an anonymous donation):</span></p><input type="text" name="os0" class="username-input"></div><p><input type="hidden" name="on1" value="Comment" maxlength="200">Comment <span>(optional, 200 characters max):</span><br><textarea maxlength="200" name="os1" class="comment-textarea"></textarea></p><div class="row"><select name="hosted_button_id" class="pay-select"><option value="T9J2JT7AYBCZU" selected="selected">USD $</option><option value="ZU5FZHR7ET5DY">EUR €</option><option value="PKP53ZVT9STMU">RUR ₽</option></select> <button type="submit" class="button paypal warning"><b>Donate with&nbsp;&nbsp;</b> <img src="../img/ico/paypal.png" alt="PayPal – The safer, easier way to pay online."></button></div></form></div><div class="col-2"><div class="donation-history"><p class="title">Donation History</p><div class="donation-history-items js-donation-history-items"><div class="item"><div class="row date"><p>June 18th 2018</p></div><div class="col user"><div class="row justify"><p class="name">Andrea Scopel</p><p class="amount">$5.00</p></div><div class="row"><p class="comment">Thanks for your awesome program!</p></div></div><div class="col user"><div class="row justify"><p class="name">Andrea Scopel</p><p class="amount">$5.00</p></div><div class="row"><p class="comment">Thanks for your awesome program!</p></div></div></div></div></div></div></div></div></div><div data-include="../views/footer.html"></div><!-- import from file --><div class="remodal" data-remodal-id="remodal-mobile-menu"><div class="header-container modal"><div class="header-inner-container"><div class="header-inner-container-row row-1"><div class="col"><a href="/" class="header-inner-container-row-logo"></a><!-- <a href="#remodal-mobile-menu" class="header-inner-container-row-mobile-menu js-mobile-menu" data-remodal-target="remodal-mobile-menu"></a> --></div></div><div class="header-inner-container-row row-2"><ul class="header-inner-container-row-mobile-menu-ul"><li><a href="/">Contribute</a></li><li><a href="/">Pricing</a></li><li><a href="/">Support</a></li><li><a href="/release-notes">Release Notes</a></li><li><a href="/donate">Donate</a></li><li><a href="/">About Us</a></li></ul></div><div class="header-inner-container-row row-6"><div class="header-inner-container-row-social-mobile"><a href="" class="header-inner-container-row-social-item" style="background-image: url('../img/ico/social/twitter.svg');"></a> <a href="" class="header-inner-container-row-social-item" style="background-image: url('../img/ico/social/facebook.svg');"></a> <a href="" class="header-inner-container-row-social-item" style="background-image: url('../img/ico/social/github.svg');"></a></div></div></div></div></div><script src="../js/build.js"></script><script src="../js/main.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Aya</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="manifest" href="/img/site.webmanifest">
+    <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div class="header-container header-container-inner-page">
+        <div class="header-inner-container">
+            <div data-include="../views/header.html"></div><!-- import from file -->
+            <div class="header-inner-container-row title-col">
+                <div class="breadcrumbs">
+                    <ul>
+                        <li><a href="/"><span>Main Page</span></a></li>
+                        <li><span>Help grow this project</span></li>
+                    </ul>
+                </div>
+                <p class="page-title">Help grow this project</p>
+                <p class="page-desc">Support for the continued development of Aya project comes directly from the
+                    community.</p>
+            </div>
+        </div>
+    </div>
+    <div class="donate-container">
+        <div class="donate-inner-container">
+            <p class="title">High-quality applications development takes much time and resources. If you find the app
+                useful and would like to support our efforts, please consider donating or tell about Aya in social
+                channels.</p>
+            <div class="row">
+                <div class="col-1">
+                    <p class="title">Make a donation</p>
+                    <p class="desc">You can donate money to the project with PayPal. There is no minimal amount for
+                        your donation, but keep in mind that PayPal charges us a fee for each donation. For example, if
+                        you donate $1.00, PayPal's fee is $0.35.</p>
+                    <p class="desc">If you click the button below, you will be taken to the secure PayPal website. You
+                        don't need to have a PayPal account in order to make a donation.</p>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input type="hidden"
+                            name="cmd" value="_s-xclick"> <input type="hidden" name="return" value="http://getaya.co/donated">
+                        <div class="col"><input type="hidden" name="on0" value="Name">
+                            <p>Name <span>(optional, name will be published below, leave blank for an anonymous
+                                    donation):</span></p><input type="text" name="os0" class="username-input">
+                        </div>
+                        <p><input type="hidden" name="on1" value="Comment" maxlength="200">Comment <span>(optional, 200
+                                characters max):</span><br><textarea maxlength="200" name="os1" class="comment-textarea"></textarea></p>
+                        <div class="row"><select name="hosted_button_id" class="pay-select">
+                                <option value="T9J2JT7AYBCZU" selected="selected">USD $</option>
+                                <option value="ZU5FZHR7ET5DY">EUR €</option>
+                                <option value="PKP53ZVT9STMU">RUR ₽</option>
+                            </select> <button type="submit" class="button paypal warning"><b>Donate with&nbsp;&nbsp;</b>
+                                <img src="../img/ico/paypal.png" alt="PayPal – The safer, easier way to pay online."></button></div>
+                    </form>
+                </div>
+                <div class="col-2">
+                    <div class="donation-history">
+                        <p class="title">Donation History</p>
+                        <div class="donation-history-items js-donation-history-items">
+                            <div class="item">
+                                <div class="row date">
+                                    <p>June 18th 2018</p>
+                                </div>
+                                <div class="col user">
+                                    <div class="row justify">
+                                        <p class="name">Andrea Scopel</p>
+                                        <p class="amount">$5.00</p>
+                                    </div>
+                                    <div class="row">
+                                        <p class="comment">Thanks for your awesome program!</p>
+                                    </div>
+                                </div>
+                                <div class="col user">
+                                    <div class="row justify">
+                                        <p class="name">Andrea Scopel</p>
+                                        <p class="amount">$5.00</p>
+                                    </div>
+                                    <div class="row">
+                                        <p class="comment">Thanks for your awesome program!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-include="../views/footer.html"></div><!-- import from file -->
+    <div class="remodal" data-remodal-id="remodal-mobile-menu">
+        <div class="header-container modal">
+            <div class="header-inner-container">
+                <div class="header-inner-container-row row-1">
+                    <div class="col"><a href="/" class="header-inner-container-row-logo"></a><!-- <a href="#remodal-mobile-menu" class="header-inner-container-row-mobile-menu js-mobile-menu" data-remodal-target="remodal-mobile-menu"></a> -->
+                    </div>
+                </div>
+                <div class="header-inner-container-row row-2">
+                    <ul class="header-inner-container-row-mobile-menu-ul">
+                        <li><a href="/">Contribute</a></li>
+                        <li><a href="/">Pricing</a></li>
+                        <li><a href="/">Support</a></li>
+                        <li><a href="/release-notes">Release Notes</a></li>
+                        <li><a href="/donate">Donate</a></li>
+                        <li><a href="/">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="header-inner-container-row row-6">
+                    <div class="header-inner-container-row-social-mobile"><a href="" class="header-inner-container-row-social-item"
+                            style="background-image: url('../img/ico/social/twitter.svg');"></a> <a href="" class="header-inner-container-row-social-item"
+                            style="background-image: url('../img/ico/social/facebook.svg');"></a> <a href="" class="header-inner-container-row-social-item"
+                            style="background-image: url('../img/ico/social/github.svg');"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/build.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

@@ -1,21 +1,21 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
-    $.fn.disableScroll = function() {
+    $.fn.disableScroll = function () {
         window.oldScrollPos = $(window).scrollTop();
-    
-        $(window).on('scroll.scrolldisabler',function ( event ) {
-           $(window).scrollTop( window.oldScrollPos );
-           event.preventDefault();
+
+        $(window).on('scroll.scrolldisabler', function (event) {
+            $(window).scrollTop(window.oldScrollPos);
+            event.preventDefault();
         });
     };
 
-    $.fn.enableScroll = function() {
+    $.fn.enableScroll = function () {
         $(window).off('scroll.scrolldisabler');
     };
 
     function getMonth(month) {
-        var month = month.replace(/^0+/, '')-1; // вырезаем нули в начале числа и учитываем zero based numeration
-        var monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+        var month = month.replace(/^0+/, '') - 1; // вырезаем нули в начале числа и учитываем zero based numeration
+        var monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
         if (1 >= month <= 12) {
             return monthNames[month];
@@ -26,25 +26,25 @@ $(document).ready(function() {
 
     function getCurrencyIco(currency) {
         switch (currency) {
-           case 'USD':
-             return '$';
-             break;
-           case 'CAD':
-             return '$'
-             break;
-           case 'RUB':
-             return '₽';
-             break;
-           case 'EUR':
-             return '€';
-             break;
-           default:
-             return false;
+            case 'USD':
+                return '$';
+                break;
+            case 'CAD':
+                return '$'
+                break;
+            case 'RUB':
+                return '₽';
+                break;
+            case 'EUR':
+                return '€';
+                break;
+            default:
+                return false;
         }
     }
 
 
-    var animateNum = function() {
+    var animateNum = function () {
         var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',')
         $('.js-num').prop('number', 8000000).animateNumber({
             number: 8424799,
@@ -57,7 +57,7 @@ $(document).ready(function() {
     // генерация списка релизов
 
     try {
-        (function() {
+        (function () {
             var domOutputElement = '.js-output-release';
             var githubUrl = 'https://github.com/7room/Aya/issues/'
             var template = '';
@@ -65,15 +65,15 @@ $(document).ready(function() {
             $.ajax({
                 url: '../changelog.json',
                 dataType: 'json',
-                success: function(data) {
+                success: function (data) {
                     generateTemplate(data);
                 }
             });
 
             function generateTemplate(json) {
 
-                json.forEach(function(val) {
-                    
+                json.forEach(function (val) {
+
                     template += `<div class="item">
 
                                     <div class="col-1">
@@ -85,25 +85,25 @@ $(document).ready(function() {
                                             ${getMonth(val.date.substring(5, 7))} ${val.date.substring(8,10)} ${val.date.substring(0,4)}
                                         </p>`;
 
-                                         val.changes.forEach(function(val) {
-                                             template += `<div class="row">
+                    val.changes.forEach(function (val) {
+                        template += `<div class="row">
                                                           <div class="version-col">`;
-                     
-                                             val.tags.forEach(function(val) {
-                                                 template += `<div class="version-btn ${val}">${val}</div>`;
-                                             });
-                     
-                                             template += `</div>
+
+                        val.tags.forEach(function (val) {
+                            template += `<div class="version-btn ${val}">${val}</div>`;
+                        });
+
+                        template += `</div>
                                                           <p class="version-desc">
                                                             ${val.title}`;
-                     
-                                                            val.issues.forEach(function(val) {
-                                                                template += `<a href="${githubUrl + val}"> #${val} </a>`;
-                                                            });
-                     
-                                             template += `</p>
+
+                        val.issues.forEach(function (val) {
+                            template += `<a href="${githubUrl + val}"> #${val} </a>`;
+                        });
+
+                        template += `</p>
                                                           </div>`;
-                                         });
+                    });
 
                     template += `</div>
                                  </div>`;
@@ -124,8 +124,8 @@ $(document).ready(function() {
     // генерация списка переводов
 
 
-     try {
-        (function() {
+    try {
+        (function () {
             var domOutputElement = '.js-donation-history-items';
             var template = '';
 
@@ -133,23 +133,23 @@ $(document).ready(function() {
             $.ajax({
                 url: '../donations.json',
                 dataType: 'json',
-                success: function(data) {
+                success: function (data) {
                     generateTemplate(data);
                     $(domOutputElement).fadeIn(1000);
 
-                    setTimeout(function() {
-                    	try {
+                    setTimeout(function () {
+                        try {
                             new SimpleBar($(domOutputElement)[0], {
                                 autoHide: false
                             })
                         } catch (e) {}
-                    },1000);
+                    }, 1000);
                 }
             });
 
             function generateTemplate(json) {
 
-                json.forEach(function(val) {
+                json.forEach(function (val) {
 
                     template += `<div class="item">
                         <div class="row date">
@@ -183,27 +183,27 @@ $(document).ready(function() {
     } catch (e) {}
 
 
-    (function() {
+    (function () {
 
         // подсвечиваем пункт меню, если перешли с хэшем в ссылке
 
         function hashParse() {
-          $('a[href^="' + window.location.hash + '"]').addClass('active')
+            $('a[href^="' + window.location.hash + '"]').addClass('active')
         }
 
         // если пользователь пришел с хэшем в ссылке, то подсветим нужный пункт меню
 
-        setTimeout(hashParse,50);
+        setTimeout(hashParse, 50);
 
         // удаляем класс .active на всех элементах, чтобы не получить несколько подсвеченных
 
         function removeActiveClass() {
-          $('.js-typography-output a').removeClass('active');
+            $('.js-typography-output a').removeClass('active');
         }
 
         // вешаем айдишники составленные из названий элементов.
 
-        $('.js-typography-input h2').each(function(i, elem) {
+        $('.js-typography-input h2').each(function (i, elem) {
             $(elem).attr('id', $(elem).text().replace(/\s+/g, '').replace(/[^A-Za-zА]/g, "").toLowerCase());
         });
 
@@ -211,21 +211,21 @@ $(document).ready(function() {
           на странице по стандарту быть не может.*/
 
 
-        $('.js-typography-input h2').each(function(i, elem) {
+        $('.js-typography-input h2').each(function (i, elem) {
             var elem = $(elem);
             elem.clone().appendTo('.js-typography-output').wrap('<a href="#' + elem.attr('id') + '"></a>').removeAttr('id');
         });
 
 
-        $('.js-typography-output a').on('click', function() {
-          removeActiveClass();
-          $(this).addClass('active');
+        $('.js-typography-output a').on('click', function () {
+            removeActiveClass();
+            $(this).addClass('active');
         });
 
 
-        $(window).on('hashchange',function() {
-          removeActiveClass();
-          hashParse();
+        $(window).on('hashchange', function () {
+            removeActiveClass();
+            hashParse();
         });
 
 
@@ -233,31 +233,33 @@ $(document).ready(function() {
 
 
         var lastId;
-        var menuItems =$(".js-typography-output a");
+        var menuItems = $(".js-typography-output a");
 
-        scrollItems = menuItems.map(function(){
-          var item = $($(this).attr("href"));
-          if (item.length) { return item; }
+        scrollItems = menuItems.map(function () {
+            var item = $($(this).attr("href"));
+            if (item.length) {
+                return item;
+            }
         });
 
 
-        $(window).scroll(function(){
-           var fromTop = $(this).scrollTop() + 100;
-           
-           var cur = scrollItems.map(function(){
-             if ($(this).offset().top < fromTop)
-               return this;
-           });
-        
-           cur = cur[cur.length-1];
-           var id = cur && cur.length ? cur[0].id : "";
-           
-           if (lastId !== id) {
-               lastId = id;
-        
-               menuItems.removeClass('active');
-               menuItems.filter("[href='#"+id+"']").addClass("active");
-           }                   
+        $(window).scroll(function () {
+            var fromTop = $(this).scrollTop() + 100;
+
+            var cur = scrollItems.map(function () {
+                if ($(this).offset().top < fromTop)
+                    return this;
+            });
+
+            cur = cur[cur.length - 1];
+            var id = cur && cur.length ? cur[0].id : "";
+
+            if (lastId !== id) {
+                lastId = id;
+
+                menuItems.removeClass('active');
+                menuItems.filter("[href='#" + id + "']").addClass("active");
+            }
         });
 
 
@@ -267,17 +269,18 @@ $(document).ready(function() {
     // плавная прокрутка к якорям
 
 
-    (function() {
+    (function () {
         var linkNav = document.querySelectorAll('[href^="#"]'),
             V = 0.2;
         for (var i = 0; i < linkNav.length; i++) {
-            linkNav[i].addEventListener('click', function(e) {
-                e.preventDefault(); 
-                var w = window.pageYOffset, 
-                    hash = this.href.replace(/[^#]*(.*)/, '$1'); 
-                t = document.querySelector(hash).getBoundingClientRect().top, 
+            linkNav[i].addEventListener('click', function (e) {
+                e.preventDefault();
+                var w = window.pageYOffset,
+                    hash = this.href.replace(/[^#]*(.*)/, '$1');
+                t = document.querySelector(hash).getBoundingClientRect().top,
                     start = null;
-                requestAnimationFrame(step); 
+                requestAnimationFrame(step);
+
                 function step(time) {
                     if (start === null) start = time;
                     var progress = time - start,
@@ -331,18 +334,18 @@ $(document).ready(function() {
     function getTip() {
 
         try {
-            var dataObj = tips[$( ".js-select-topic" ).val()];
-    
+            var dataObj = tips[$(".js-select-topic").val()];
+
             $('.js-tips-title').html(dataObj.title);
             $('.js-tips-desc').html(dataObj.desc);
-        } catch(e) {
-            
+        } catch (e) {
+
         }
     }
 
     getTip();
 
-    $( ".js-select-topic" ).change(function(e) {
+    $(".js-select-topic").change(function (e) {
         getTip();
     });
 
@@ -357,7 +360,7 @@ $(document).ready(function() {
             rellax.destroy();
         }
 
-        $( window ).resize(function() {
+        $(window).resize(function () {
             if (document.body.clientWidth > 1280) {
                 rellax = new Rellax('.js-rellax');
             } else {
@@ -369,7 +372,7 @@ $(document).ready(function() {
 
 
 
-    
+
 
 
 });
