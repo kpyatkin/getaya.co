@@ -2374,8 +2374,7 @@ body {
 
 .release-container .release-inner-container {
     display: flex;
-    flex-direction: column;
-    padding: 45px 0 0
+    flex-direction: column
 }
 
 .release-container .release-inner-container .item {
