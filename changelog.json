@@ -1,174 +1,178 @@
 [
-  {
-    "version": "0.8.6",
-    "date": "2019-02-08T02:07:00Z",
-    "changes": [
-      {
-        "title": "Add ability to show advanced view by default",
-        "tags": [ "Added" ]
-      },
-      {
-        "title": "Show 'Manual update' button on update error",
-        "tags": [ "Added" ]
-      },
-      {
-        "title": "Protect update hash",
-        "tags": [ "Changed", "Security" ]
-      },
-      {
-        "title": "Improve UI library",
-        "tags": [ "Fixed" ]
-      },
-      {
-        "title": "Use PasswordBox for proxy password",
-        "tags": [ "Changed", "Security" ]
-      },
-      {
-        "title": "Improve licensing engine",
-        "tags": [ "Changed" ]
-      },
-      {
-        "title": "Restrict functionality in free version",
-        "tags": [ "Added" ]
-      },
-      {
-        "title": "Improve UX in some scenarios",
-        "tags": [ "Changed" ]
-      }
-    ]
-  },
-  {
-    "version": "0.8.5",
-    "date": "2019-01-04T02:00:00Z",
-    "changes": [
-      {
-        "title": "Refreshing channels in UI",
-        "tags": [ "Fixed" ]
-      }
-    ]
-  },
-  {
-    "version": "0.8.4",
-    "date": "2019-01-04T01:00:00Z",
-    "changes": [
-      {
-        "title": "Unlock license module",
-        "tags": [ "Changed" ]
-      },
-      {
-        "title": "Fix first start app problem",
-        "tags": [ "Fixed" ]
-      },
-      {
-        "title": "Other minor bug fixes",
-        "tags": [ "Fixed" ]
-      }
-    ]
-  },
-  {
-    "version": "0.8.3",
-    "date": "2018-12-27T01:15:52Z",
-    "changes": [
-      {
-        "title": "Fix running without admin rights",
-        "tags": [ "Fixed" ]
-      },
-      {
-        "title": "Fix stats background problem",
-        "tags": [ "Fixed" ]
-      }
-    ]
-  },
-  {
-    "version": "0.8.2",
-    "date": "2018-12-26T01:00:00Z",
-    "changes": [
-      {
-        "title": "Fix feedback service problem",
-        "tags": [ "Fixed" ]
-      },
-      {
-        "title": "Handle empty folder",
-        "tags": [ "Fixed" ]
-      }
-    ]
-  },
-  {
-    "version": "0.8.1",
-    "date": "2018-12-25T18:30:00Z",
-    "changes": [
-      {
-        "title": "UI improvements",
-        "tags": [ "Changed" ]
-      },
-      {
-        "title": "Temporary locked licensing",
-        "tags": [ "Changed" ]
-      },
-      {
-        "title": "Minor bug fixes",
-        "tags": [ "Fixed" ]
-      }
-    ]
-  },
-  {
-    "version": "0.8.0",
-    "date": "2018-12-10T01:00:00Z",
-    "changes": [
-      {
-        "title": "Introduce Material Design UI",
-        "tags": [ "Changed" ]
-      },
-      {
-        "title": "New filters concept",
-        "tags": [ "Changed" ]
-      },
-      {
-        "title": "Handle reparse point",
-        "tags": [ "Added" ]
-      },
-      {
-        "title": "Fix many bugs",
-        "tags": [ "Fixed" ]
-      },
-      {
-        "title": "Remove Infralution library usage",
-        "tags": [ "Removed" ]
-      },
-      {
-        "title": "Handle certificate missing on verifying installer",
-        "tags": [ "Security" ]
-      }
-    ]
-  },
-  {
-    "version": "0.7.9",
-    "date": "2018-07-28T01:00:00Z",
-    "changes": [
-      {
-        "title": "Fix application freeze after downloading update",
-        "tags": ["Fixed"]
-      },
-      {
-        "title": "Delete update file after successful updating",
-        "tags": ["Added"]
-      }
-    ]
-  },
-  {
-    "version": "0.7.8",
-    "date": "2018-07-27T18:30:00Z",
-    "changes": [
-      {
-        "title": "Aya.Builder can publish to Dropbox channel",
-        "tags": ["Added"],
-        "issues": ["#1"]
-      },
-      {
-        "title": "Fix Developer channel update",
-        "tags": ["Fixed"],
-        "issues": ["#2"]
-      }
-    ]
-  }
+	{
+		"version": "0.8.6",
+		"date": "2019-02-08T02:07:00Z",
+		"changes": [
+			{
+				"title": "Add ability to show advanced view by default",
+				"tag": "Added"
+			},
+			{
+				"title": "Show 'Manual update' button on update error",
+				"tag": "Added"
+			},
+			{
+				"title": "Protect update hash",
+				"tag": "Changed"
+			},
+			{
+				"title": "Improve UI library",
+				"tag": "Fixed"
+			},
+			{
+				"title": "Use PasswordBox for proxy password",
+				"tag": "Changed"
+			},
+			{
+				"title": "Improve licensing engine",
+				"tag": "Changed"
+			},
+			{
+				"title": "Restrict functionality in free version",
+				"tag": "Added"
+			},
+			{
+				"title": "Improve UX in some scenarios",
+				"tag": "Changed"
+			}
+		]
+	},
+	{
+		"version": "0.8.5",
+		"date": "2019-01-04T02:00:00Z",
+		"changes": [
+			{
+				"title": "Refreshing channels in UI",
+				"tag": "Fixed"
+			}
+		]
+	},
+	{
+		"version": "0.8.4",
+		"date": "2019-01-04T01:00:00Z",
+		"changes": [
+			{
+				"title": "Unlock license module",
+				"tag": "Changed"
+			},
+			{
+				"title": "Fix first start app problem",
+				"tag": "Fixed"
+			},
+			{
+				"title": "Other minor bug fixes",
+				"tag": "Fixed"
+			}
+		]
+	},
+	{
+		"version": "0.8.3",
+		"date": "2018-12-27T01:15:52Z",
+		"changes": [
+			{
+				"title": "Fix running without admin rights",
+				"tag": "Fixed"
+			},
+			{
+				"title": "Fix stats background problem",
+				"tag": "Fixed"
+			}
+		]
+	},
+	{
+		"version": "0.8.2",
+		"date": "2018-12-26T01:00:00Z",
+		"changes": [
+			{
+				"title": "Fix feedback service problem",
+				"tag": "Fixed"
+			},
+			{
+				"title": "Handle empty folder",
+				"tag": "Fixed"
+			}
+		]
+	},
+	{
+		"version": "0.8.1",
+		"date": "2018-12-25T18:30:00Z",
+		"changes": [
+			{
+				"title": "UI improvements",
+				"tag": "Changed"
+			},
+			{
+				"title": "Temporary locked licensing",
+				"tag": "Changed"
+			},
+			{
+				"title": "Minor bug fixes",
+				"tag": "Fixed"
+			}
+		]
+	},
+	{
+		"version": "0.8.0",
+		"date": "2018-12-10T01:00:00Z",
+		"changes": [
+			{
+				"title": "Introduce Material Design UI",
+				"tag": "Changed"
+			},
+			{
+				"title": "New filters concept",
+				"tag": "Changed"
+			},
+			{
+				"title": "Handle reparse point",
+				"tag": "Added"
+			},
+			{
+				"title": "Fix many bugs",
+				"tag": "Fixed"
+			},
+			{
+				"title": "Remove Infralution library usage",
+				"tag": "Removed"
+			},
+			{
+				"title": "Handle certificate missing on verifying installer",
+				"tag": "Security"
+			}
+		]
+	},
+	{
+		"version": "0.7.9",
+		"date": "2018-07-28T01:00:00Z",
+		"changes": [
+			{
+				"title": "Fix application freeze after downloading update",
+				"tag": "Fixed"
+			},
+			{
+				"title": "Delete update file after successful updating",
+				"tag": "Added"
+			}
+		]
+	},
+	{
+		"version": "0.7.8",
+		"date": "2018-07-27T18:30:00Z",
+		"changes": [
+			{
+				"title": "Aya.Builder can publish to Dropbox channel",
+				"tag": "Added",
+				"issues": [
+					"#1"
+				]
+			},
+			{
+				"title": "Fix Developer channel update",
+				"tag": "Fixed",
+				"issues": [
+					"#2"
+				]
+			}
+		]
+	}
 ]
