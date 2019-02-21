@@ -1937,7 +1937,7 @@ body {
     margin: 0
 }
 
-.header-container .header-inner-container-row-versions span {
+.header-container .header-inner-container-row-versions span a {
     font-family: roboto-regular;
     color: #fff
 }
