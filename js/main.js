@@ -89,17 +89,19 @@ $(document).ready(function () {
                         template += `<div class="row">
                                                           <div class="version-col">`;
 
-                        val.tags.forEach(function (val) {
-                            template += `<div class="version-btn ${val}">${val}</div>`;
-                        });
+                        // val.tags.forEach(function (val) {
+                        //     template += `<div class="version-btn ${val}">${val}</div>`;
+                        // });
+
+                        template += `<div class="version-btn ${val.tag}">${val.tag}</div>`;
 
                         template += `</div>
                                                           <p class="version-desc">
                                                             ${val.title}`;
 
-                        val.issues.forEach(function (val) {
-                            template += `<a href="${githubUrl + val}"> #${val} </a>`;
-                        });
+                        // val.issues.forEach(function (val) {
+                        //     template += `<a href="${githubUrl + val}"> #${val} </a>`;
+                        // });
 
                         template += `</p>
                                                           </div>`;
