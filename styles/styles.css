@@ -4054,3 +4054,24 @@ body {
     margin: 0 auto 20px;
     width: fit-content;
 }
+
+.thank-you {
+    background: rgb(46,110,220);
+    background: linear-gradient(30deg, rgba(46,110,220,1) 0%, rgba(33,99,206,1) 50%, rgba(5,73,174,1) 100%);
+}
+
+.thank-you .header-container {
+    background: none;
+}
+
+.thank-you .footer-container .footer-inner-container .col-title {
+    color: #fff !important;
+}
+
+.thank-you .footer-container .footer-inner-container .ul-wrap ul li a {
+    color: #fff !important;
+}
+
+.thank-you .footer-container .footer-inner-container .col-1 .footer-logo {
+    background-image: url('../img/pic/footer-logo_white.png') !important;
+}
