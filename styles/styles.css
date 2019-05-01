@@ -4075,3 +4075,11 @@ body {
 .thank-you .footer-container .footer-inner-container .col-1 .footer-logo {
     background-image: url('../img/pic/footer-logo_white.png') !important;
 }
+
+.thank-you .footer-container .footer-inner-container .col-1 .footer-about {
+    color: #fff;
+}
+
+.thank-you .footer-container .footer-inner-container .col-1 .footer-about a {
+    color: #fff;
+}
