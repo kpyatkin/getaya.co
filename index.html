@@ -3,270 +3,311 @@
 
 <head>
     <title>Aya - Disk Usage Analyzer and Duplicate File Finder</title>
+    <meta name="description" content="Aya software">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="/styles/styles.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
-    <link rel="manifest" href="/img/site.webmanifest">
-    <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/fav/favicon-16x16.png">
+    <link rel="manifest" href="/img/fav/site.webmanifest">
+    <link rel="mask-icon" href="/img/fav/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
-    <script id="fsc-api" src="https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.7.9/fastspring-builder.min.js" type="text/javascript"
-        data-storefront="sevenroom.onfastspring.com/popup-aya" data-popup-webhook-received="OnFsPopupWebhookReceived"
-        data-popup-closed="onFsPopupClosed"></script>
+    <script id="fsc-api" src="https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.7.9/fastspring-builder.min.js"
+            type="text/javascript"
+            data-storefront="sevenroom.onfastspring.com/popup-aya"
+            data-popup-webhook-received="OnFsPopupWebhookReceived"
+            data-popup-closed="onFsPopupClosed"></script>
+
     <script src="/js/store.js"></script>
+
+    <meta property="og:url" content="https://getaya.co/"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Aya"/>
+    <meta property="og:description" content="Disk Usage Analyzer and Duplicate File Finder"/>
+    <meta property="og:image" content="http://aya.devade.ru/img/pic/screens/hero-1070x710.png"/>
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="http://aya.devade.ru/">
+    <meta name="twitter:title" content="Aya">
+    <meta name="twitter:description" content="Aya software">
+    <meta name="twitter:image" content="http://aya.devade.ru/img/pic/screens/hero-1070x710.png">
+
 </head>
 
 <body>
-    <div class="header-container">
-        <div class="header-inner-container">
-            <div data-include="../views/header.html"></div><!-- import from file -->
-            <div class="header-inner-container-row row-2">
-                <div class="col">
-                    <h1 class="header-inner-container-row-offer">Find. Make sure. Delete.</h1>
-                    <h2 class="header-inner-container-row-description">Aya is a well-designed tool that helps you take
-                        control over your large files<br />and get rid of useless ones.</h2>
-                </div>
+<div class="header-container">
+    <div class="header-inner-container">
+        <div data-include="../views/header.html"></div><!-- import from file -->
+        <div class="header-inner-container-row row-2">
+            <div class="col">
+                <h1 class="header-inner-container-row-offer">Find. Make sure. Delete.</h1>
+                <h2 class="header-inner-container-row-description">Aya is a well-designed tool that helps you take
+                    control over your large files<br/>and get rid of useless ones.</h2>
             </div>
-            <div class="header-inner-container-row row-3">
-                <div class="buttons-row"><a href="https://github.com/7room/aya/releases/download/v0.8.6/AyaSetup-0.8.6.exe"
-                        class="button">FREE DOWNLOAD</a><a href="#" data-fsc-action="Add,Checkout"
-                        data-fsc-item-path-value="aya-advanced-annual" class="button active">BUY NOW</a></div>
+        </div>
+        <div class="header-inner-container-row row-3">
+            <div class="buttons-row">
+                <a href="https://github.com/7room/aya/releases/download/v0.8.6/AyaSetup-0.8.6.exe"
+                   class="button">FREE DOWNLOAD</a>
+                <a href="#" data-fsc-action="Add,Checkout"
+                   data-fsc-item-path-value="aya-advanced-annual"
+                   class="button active">BUY NOW</a>
             </div>
-            <div class="header-inner-container-row row-4">
-                <p class="header-inner-container-row-versions">Current version is 0.8.6. Looking for <span><a href="https://github.com/7room/aya/releases">older
+        </div>
+        <div class="header-inner-container-row row-4">
+            <p class="header-inner-container-row-versions">Current version is 0.8.6. <span
+                    class="beta-version">BETA</span> Looking for <span><a href="https://github.com/7room/aya/releases">older
                             releases</a></span>?</p>
-                <p class="header-inner-container-row-versions">For Windows 7 or later. Installer supports both 32 and
-                    64-bit operating systems.</p>
-            </div>
-            <div class="header-inner-container-row row-5">
-                <div class="header-inner-container-row-product-pic" style="background-image: url('img/pic/screens/content.png')"></div>
-            </div>
-            <div class="header-inner-container-row row-6">
-                <p class="header-inner-container-row-product-desc">Aya has necessary and sufficient functionality to
-                    reveal what files and folders waste your space and get rid of them and their duplicates. Simple yet
-                    powerful, Aya satisfies not only home users, but also professionals.</p>
+            <p class="header-inner-container-row-versions">For Windows 7 or later. Installer supports both 32 and
+                64-bit operating systems.</p>
+        </div>
+        <div class="header-inner-container-row row-5">
+            <img src="/img/pic/screens/hero-1070x710.png" alt="">
+            <!--<div class="header-inner-container-row-product-pic" style="background-image: url('img/pic/screens/content.png'); background-image: -Webkit-image-set(url('img/pic/screens/content.png') 1x, url('img/pic/screens/content2X.png') 2x);"></div>-->
+        </div>
+        <div class="header-inner-container-row row-6"
+             style="background: url('img/pic/screens/about_text_bg.png') no-repeat bottom/contain;">
+            <p class="header-inner-container-row-product-desc">Aya has necessary and sufficient functionality to
+                reveal what files and folders waste your space and get rid of them and their duplicates. Simple yet
+                powerful, Aya satisfies not only home users, but also professionals.</p>
+        </div>
+    </div>
+</div>
+<div class="slider-container">
+    <div class="col-2">
+        <div class="laptop-slider-desc js-laptop-slider-desc">
+            <div class="item">
+                <p class="col-2-subtitle">TOP FILES</p>
+                <p class="col-2-title">Big files are prioritized</p>
+                <p class="col-2-desc">Aya gives you a simple and clear overview of the largest space wasters by
+                    organising them in top lists. No more bloated pies-and-charts. Just see what takes much space
+                    and delete those you don't need.</p>
             </div>
         </div>
     </div>
-    <div class="slider-container">
-        <div class="col-2">
-            <div class="laptop-slider-desc js-laptop-slider-desc">
-                <div class="item">
-                    <p class="col-2-title">Big files are prioritized</p>
-                    <p class="col-2-desc">Aya gives you a simple and clear overview of the largest space wasters by
-                        organising them in top lists. No more bloated pies-and-charts. Just see what takes much space
-                        and delete those you don't need.</p>
-                </div>
-            </div>
+    <div class="col-3">
+        <div class="item">
+            <div class="bg" style="background-image: url('img/pic/screens/1/1.png')"></div>
         </div>
-        <div class="col-3">
+    </div>
+</div>
+<div class="slider-container reverse">
+    <div class="col-2">
+        <div class="laptop-slider-desc js-laptop-slider-desc">
             <div class="item">
-                <div class="bg" style="background-image: url('img/pic/screens/1/1.png')"></div>
+                <p class="col-2-subtitle">DUPLICATES</p>
+                <p class="col-2-title">Built-in duplicate finder</p>
+                <p class="col-2-desc">App has fully-featured duplicate finder, that allows you to fight with real
+                    space invaders – duplicates. Make fast search that generally enought to discover duplicates or
+                    make byte-to-byte check in one click to be absolutely confident. Duplicate folders can be wiped
+                    away as well if you say so. There is no need to worry, Aya will take care that original file
+                    will be kept safe.</p>
             </div>
         </div>
     </div>
-    <div class="slider-container reverse">
-        <div class="col-2">
-            <div class="laptop-slider-desc js-laptop-slider-desc">
-                <div class="item">
-                    <p class="col-2-title">Built-in duplicate finder</p>
-                    <p class="col-2-desc">App has fully-featured duplicate finder, that allows you to fight with real
-                        space invaders – duplicates. Make fast search that generally enought to discover duplicates or
-                        make byte-to-byte check in one click to be absolutely confident. Duplicate folders can be wiped
-                        away as well if you say so. There is no need to worry, Aya will take care that original file
-                        will be kept safe.</p>
-                </div>
-            </div>
+    <div class="col-3">
+        <div class="item">
+            <div class="bg" style="background-image: url('img/pic/screens/2/1.png')"></div>
         </div>
-        <div class="col-3">
+    </div>
+</div>
+<div class="slider-container">
+    <div class="col-2">
+        <div class="laptop-slider-desc js-laptop-slider-desc">
             <div class="item">
-                <div class="bg" style="background-image: url('img/pic/screens/2/1.png')"></div>
+                <p class="col-2-subtitle">EXPLORE</p>
+                <p class="col-2-title">Explorer-like</p>
+                <p class="col-2-desc">You are used to work that way. Why change this? No need. Just press Del to
+                    move file to the Recycle Bin or Shift + Del to delete file permanently. Aya uses native API to
+                    delete files. Even more, Aya controls your Recycle Bin settings to prevent files from being
+                    deleted quietly.</p>
             </div>
         </div>
     </div>
-    <div class="slider-container">
-        <div class="col-2">
-            <div class="laptop-slider-desc js-laptop-slider-desc">
-                <div class="item">
-                    <p class="col-2-title">Explorer-like</p>
-                    <p class="col-2-desc">You are used to work that way. Why change this? No need. Just press Del to
-                        move file to the Recycle Bin or Shift + Del to delete file permanently. Aya uses native API to
-                        delete files. Even more, Aya controls your Recycle Bin settings to prevent files from being
-                        deleted quietly.</p>
-                </div>
-            </div>
+    <div class="col-3">
+        <div class="item">
+            <div class="bg" style="background-image: url('img/pic/screens/3/1.png')"></div>
         </div>
-        <div class="col-3">
+    </div>
+</div>
+<div class="slider-container reverse">
+    <div class="col-2">
+        <div class="laptop-slider-desc js-laptop-slider-desc">
             <div class="item">
-                <div class="bg" style="background-image: url('img/pic/screens/3/1.png')"></div>
+                <p class="col-2-subtitle">FILTERS</p>
+                <p class="col-2-title">Advanced filters</p>
+                <p class="col-2-desc">Focus on the most interesting. Aya lets you perform type filtering. You can
+                    easily choose documents only, or music and video content and so on. Start with simple
+                    predefined
+                    filters and continue with filter sets you created.</p>
             </div>
         </div>
     </div>
-    <div class="slider-container reverse">
-        <div class="col-2">
-            <div class="laptop-slider-desc js-laptop-slider-desc">
-                <div class="item">
-                    <p class="col-2-title">Advanced filters</p>
-                    <p class="col-2-desc">Focus on the most interesting. Aya lets you perform type filtering. You can
-                        easily choose documents only, or music and video content and so on. Start with simple
-                        predefined
-                        filters and continue with filter sets you created.</p>
-                </div>
-            </div>
+    <div class="col-3">
+        <div class="item">
+            <div class="bg" style="background-image: url('img/pic/screens/4/1.png')"></div>
         </div>
-        <div class="col-3">
+    </div>
+</div>
+<div class="slider-container">
+    <div class="col-2">
+        <div class="laptop-slider-desc js-laptop-slider-desc">
             <div class="item">
-                <div class="bg" style="background-image: url('img/pic/screens/2/1.png')"></div>
+                <p class="col-2-subtitle">SCAN</p>
+                <p class="col-2-title">Multiple scan locations</p>
+                <p class="col-2-desc">Double click on disk that you want to scan, or switch to the advanced mode
+                    and
+                    select specific folders on disk, no matter how many, or even specify a whole set of scanning
+                    locations on different disks. Aya works both with whole disks and specific folders or any
+                    combination of them.</p>
             </div>
         </div>
     </div>
-    <div class="slider-container">
-        <div class="col-2">
-            <div class="laptop-slider-desc js-laptop-slider-desc">
-                <div class="item">
-                    <p class="col-2-title">Multiple scan locations</p>
-                    <p class="col-2-desc">Double click on disk that you want to scan, or switch to the advanced mode
-                        and
-                        select specific folders on disk, no matter how many, or even specify a whole set of scanning
-                        locations on different disks. Aya works both with whole disks and specific folders or any
-                        combination of them.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="item">
-                <div class="bg" style="background-image: url('img/pic/screens/3/1.png')"></div>
-            </div>
+    <div class="col-3">
+        <div class="item">
+            <div class="bg" style="background-image: url('img/pic/screens/5/1.png')"></div>
         </div>
     </div>
-    <div class="features-container">
-        <div class="features-inner-container">
-            <div class="item">
-                <div class="col-1">
-                    <div class="item-ico" style="background-image: url('img/svg/features/1.svg');"></div>
-                </div>
-                <div class="col-2">
-                    <p class="title">Automatic updates</p>
-                    <p class="desc">You no longer need to open your browser to download the new version. When the
-                        update
-                        is available, it will be installed automatically next time you start Aya. If you like the
-                        latest
-                        stuff, you can always switch to beta in a couple of clicks.</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="col-1">
-                    <div class="item-ico" style="background-image: url('img/svg/features/2.svg');"></div>
-                </div>
-                <div class="col-2">
-                    <p class="title">Duplicate folders</p>
-                    <p class="desc">On deleting duplicates, empty folders can remain on disk. In most cases, they are
-                        not needed. Aya has a nice feature to see these folders and completely get rid of them if you
-                        want.</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="col-1">
-                    <div class="item-ico" style="background-image: url('img/svg/features/3.svg');"></div>
-                </div>
-                <div class="col-2">
-                    <p class="title">Recycle Bin</p>
-                    <p class="desc">Aya watches the Recycle Bin settings and tells you whether a file will be placed in
-                        the Recycle Bin or permanently deleted. See the space occupied by the Recycle Bin and empty it
-                        directly from Aya.</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="col-1">
-                    <div class="item-ico" style="background-image: url('img/svg/features/4.svg');"></div>
-                </div>
-                <div class="col-2">
-                    <p class="title">Feedback reporting</p>
-                    <p class="desc">Do you have an idea to improve Aya? Did you catch some bug? Your feedback will be
-                        super helpful. We've simplified the delivery of your feedback as much as we could. Write us
-                        directly in the app.</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="col-1">
-                    <div class="item-ico" style="background-image: url('img/svg/features/5.svg');"></div>
-                </div>
-                <div class="col-2">
-                    <p class="title">Scan warnings</p>
-                    <p class="desc">Some files cannot be processed due to lack of permissions or simply because they
-                        are
-                        excluded by user preferences. Aya collects this stuff in one place. This is also taken into
-                        account when deleting folders. No hidden data will be deleted accidentally.</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="col-1">
-                    <div class="item-ico" style="background-image: url('img/svg/features/6.svg');"></div>
-                </div>
-                <div class="col-2">
-                    <p class="title">Carefully crafted UI</p>
-                    <p class="desc">We're convinced that UI is crucial. That's why every piece of Aya is crafted with
-                        pixel precision. No inconsistent controls and colors! Make sure you can not only work with the
-                        app, but also enjoy the process.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="result-container">
-        <div class="result-inner-container">
-            <p class="title"><span class="js-num">8424, 799</span> GB</p>
-            <p class="desc">has already been cleaned<br>over the world</p>
-        </div>
-    </div>
-    <div class="start-container">
-        <div class="start-inner-container">
+</div>
+<div class="features-container">
+    <div class="features-inner-container">
+        <div class="item">
             <div class="col-1">
-                <p class="title">Start cleaning up your disks today</p>
-                <p class="desc">Find files that take up a lot of disk space, find duplicates, make sure they are no
-                    longer needed, and delete them in seconds.</p>
+                <div class="item-ico" style="background-image: url('img/svg/features/1.svg');"></div>
             </div>
             <div class="col-2">
-                <div class="buttons-row"><a href="https://github.com/7room/aya/releases/download/v0.8.6/AyaSetup-0.8.6.exe"
-                        class="button">FREE DOWNLOAD</a><a href="#" data-fsc-action="Add,Checkout"
-                        data-fsc-item-path-value="aya-advanced-annual" class="button active">BUY NOW</a></div>
+                <p class="title">Automatic updates</p>
+                <p class="desc">You no longer need to open your browser to download the new version. When the
+                    update
+                    is available, it will be installed automatically next time you start Aya. If you like the
+                    latest
+                    stuff, you can always switch to beta in a couple of clicks.</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-1">
+                <div class="item-ico" style="background-image: url('img/svg/features/2.svg');"></div>
+            </div>
+            <div class="col-2">
+                <p class="title">Duplicate folders</p>
+                <p class="desc">On deleting duplicates, empty folders can remain on disk. In most cases, they are
+                    not needed. Aya has a nice feature to see these folders and completely get rid of them if you
+                    want.</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-1">
+                <div class="item-ico" style="background-image: url('img/svg/features/3.svg');"></div>
+            </div>
+            <div class="col-2">
+                <p class="title">Recycle Bin</p>
+                <p class="desc">Aya watches the Recycle Bin settings and tells you whether a file will be placed in
+                    the Recycle Bin or permanently deleted. See the space occupied by the Recycle Bin and empty it
+                    directly from Aya.</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-1">
+                <div class="item-ico" style="background-image: url('img/svg/features/4.svg');"></div>
+            </div>
+            <div class="col-2">
+                <p class="title">Feedback reporting</p>
+                <p class="desc">Do you have an idea to improve Aya? Did you catch some bug? Your feedback will be
+                    super helpful. We've simplified the delivery of your feedback as much as we could. Write us
+                    directly in the app.</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-1">
+                <div class="item-ico" style="background-image: url('img/svg/features/5.svg');"></div>
+            </div>
+            <div class="col-2">
+                <p class="title">Scan warnings</p>
+                <p class="desc">Some files cannot be processed due to lack of permissions or simply because they
+                    are
+                    excluded by user preferences. Aya collects this stuff in one place. This is also taken into
+                    account when deleting folders. No hidden data will be deleted accidentally.</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-1">
+                <div class="item-ico" style="background-image: url('img/svg/features/6.svg');"></div>
+            </div>
+            <div class="col-2">
+                <p class="title">Carefully crafted UI</p>
+                <p class="desc">We're convinced that UI is crucial. That's why every piece of Aya is crafted with
+                    pixel precision. No inconsistent controls and colors! Make sure you can not only work with the
+                    app, but also enjoy the process.</p>
             </div>
         </div>
     </div>
-    <div data-include="../views/footer.html"></div><!-- import from file -->
-    <div class="remodal" data-remodal-id="remodal-mobile-menu">
-        <div class="header-container modal">
-            <div class="header-inner-container">
-                <div class="header-inner-container-row row-1">
-                    <div class="col"><a href="/" class="header-inner-container-row-logo"></a>
-                        <!-- <a href="#remodal-mobile-menu" class="header-inner-container-row-mobile-menu js-mobile-menu" data-remodal-target="remodal-mobile-menu"></a> -->
-                    </div>
+</div>
+<div class="result-container">
+    <div class="result-inner-container">
+        <p class="title"><span class="js-num">8424, 799</span> GB</p>
+        <p class="desc">has already been cleaned<br>over the world</p>
+    </div>
+</div>
+<div class="start-container">
+    <div class="start-inner-container">
+        <div class="col-1">
+            <p class="title">Start cleaning up your disks today</p>
+            <p class="desc">Find files that take up a lot of disk space, find duplicates, make sure they are no
+                longer needed, and delete them in seconds.</p>
+        </div>
+        <div class="col-2">
+            <div class="buttons-row">
+                <a href="https://github.com/7room/aya/releases/download/v0.8.6/AyaSetup-0.8.6.exe"
+                   class="button">FREE DOWNLOAD</a>
+                <a href="#" data-fsc-action="Add,Checkout"
+                   data-fsc-item-path-value="aya-advanced-annual"
+                   class="button active">BUY NOW</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div data-include="../views/footer.html"></div><!-- import from file -->
+<div class="remodal" data-remodal-id="remodal-mobile-menu">
+    <div class="header-container modal">
+        <div class="header-inner-container">
+            <div class="header-inner-container-row row-1">
+                <div class="col"><a href="/" class="header-inner-container-row-logo"></a>
+                    <!-- <a href="#remodal-mobile-menu" class="header-inner-container-row-mobile-menu js-mobile-menu" data-remodal-target="remodal-mobile-menu"></a> -->
                 </div>
-                <div class="header-inner-container-row row-2">
-                    <ul class="header-inner-container-row-mobile-menu-ul">
-                        <li><a href="/">Contribute</a></li>
-                        <li><a href="/">Pricing</a></li>
-                        <li><a href="/">Support</a></li>
-                        <li><a href="/release-notes">Release Notes</a></li>
-                        <li><a href="/donate">Donate</a></li>
-                        <li><a href="/">About Us</a></li>
-                    </ul>
-                </div>
-                <div class="header-inner-container-row row-6">
-                    <div class="header-inner-container-row-social-mobile"><a href="" class="header-inner-container-row-social-item"
-                            style="background-image: url('img/ico/social/twitter.svg');"></a> <a href="" class="header-inner-container-row-social-item"
-                            style="background-image: url('img/ico/social/facebook.svg');"></a> <a href="" class="header-inner-container-row-social-item"
-                            style="background-image: url('img/ico/social/github.svg');"></a></div>
+            </div>
+            <div class="header-inner-container-row row-2">
+                <ul class="header-inner-container-row-mobile-menu-ul">
+                    <li><a href="/">Contribute</a></li>
+                    <li><a href="/">Pricing</a></li>
+                    <li><a href="/">Support</a></li>
+                    <li><a href="/release-notes">Release Notes</a></li>
+                    <li><a href="/donate">Donate</a></li>
+                    <li><a href="/">About Us</a></li>
+                </ul>
+            </div>
+            <div class="header-inner-container-row row-6">
+                <div class="header-inner-container-row-social-mobile">
+                    <a href=""
+                       class="header-inner-container-row-social-item"
+                       style="background-image: url('img/ico/social/twitter.svg');">
+
+                    </a>
+                    <a href="" class="header-inner-container-row-social-item"
+                       style="background-image: url('img/ico/social/facebook.svg');"></a>
+                    <a href=""
+                       class="header-inner-container-row-social-item"
+                       style="background-image: url('img/ico/social/github.svg');"></a>
                 </div>
             </div>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/ScrollMagic.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/plugins/debug.addIndicators.min.js"></script>
-    <script src="js/build.js"></script>
-    <script src="js/main.js"></script>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/plugins/debug.addIndicators.min.js"></script>
+<script src="js/build.js"></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>

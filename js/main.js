@@ -54,6 +54,21 @@ $(document).ready(function () {
 
     $('.header-container.modal .header-inner-container .row-1 .col').append($('.remodal-close'));
 
+
+    // подгрузка статистики очистки
+
+    try {
+        $.ajax({
+            url: '../stats.json',
+            dataType: 'json',
+            success: function (data) {
+                $('.js-num').text(Math.trunc(data.spaceCleaned/1000) + ' ' + data.spaceCleaned%1000);
+            }
+        });
+    }
+    catch (e) {
+    }
+
     // генерация списка релизов
 
     try {
@@ -82,7 +97,7 @@ $(document).ready(function () {
 
                                     <div class="col-2">
                                         <p class="version-title">
-                                            ${getMonth(val.date.substring(5, 7))} ${val.date.substring(8,10)} ${val.date.substring(0,4)}
+                                            ${getMonth(val.date.substring(5, 7))} ${val.date.substring(8, 10)} ${val.date.substring(0, 4)}
                                         </p>`;
 
                     val.changes.forEach(function (val) {
@@ -120,7 +135,8 @@ $(document).ready(function () {
             }
 
         })();
-    } catch (e) {}
+    } catch (e) {
+    }
 
 
     // генерация списка переводов
@@ -144,7 +160,8 @@ $(document).ready(function () {
                             new SimpleBar($(domOutputElement)[0], {
                                 autoHide: false
                             })
-                        } catch (e) {}
+                        } catch (e) {
+                        }
                     }, 1000);
                 }
             });
@@ -155,7 +172,7 @@ $(document).ready(function () {
 
                     template += `<div class="item">
                         <div class="row date">
-                            <p>${getMonth(val.date.substring(5, 7))} ${val.date.substring(8,10)} ${val.date.substring(0,4)}</p>
+                            <p>${getMonth(val.date.substring(5, 7))} ${val.date.substring(8, 10)} ${val.date.substring(0, 4)}</p>
                         </div>
 
                         <div class="col user">
@@ -182,7 +199,8 @@ $(document).ready(function () {
             }
 
         })();
-    } catch (e) {}
+    } catch (e) {
+    }
 
 
     (function () {
@@ -353,28 +371,28 @@ $(document).ready(function () {
 
     /*rellax.js init*/
 
-    (function () {
-        var rellax;
+    try {
+        (function () {
+            var rellax;
 
-        if (document.body.clientWidth > 1280) {
-            rellax = new Rellax('.js-rellax');
-        } else {
-            rellax.destroy();
-        }
-
-        $(window).resize(function () {
             if (document.body.clientWidth > 1280) {
                 rellax = new Rellax('.js-rellax');
             } else {
                 rellax.destroy();
             }
-        });
-    })();
 
+            $(window).resize(function () {
+                if (document.body.clientWidth > 1280) {
+                    rellax = new Rellax('.js-rellax');
+                } else {
+                    rellax.destroy();
+                }
+            });
+        })();
+    }
+    catch (e) {
 
-
-
-
+    }
 
 
 });
